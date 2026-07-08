@@ -20,9 +20,9 @@ export function ButtonLink({ href, children, variant = "primary", className }: B
       className={cn(
         "focus-ring group inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 text-sm font-black transition duration-300",
         variant === "primary" &&
-          "bg-lava text-bone shadow-glow hover:-translate-y-1 hover:bg-[#ff654c]",
+          "bg-cyan text-bone shadow-glow hover:-translate-y-1 hover:bg-[#1d4ed8]",
         variant === "ghost" &&
-          "border border-bone/20 bg-bone/5 text-bone hover:-translate-y-1 hover:border-mint/70 hover:bg-mint/10",
+          "border border-ink/10 bg-white/60 text-ink shadow-sm hover:-translate-y-1 hover:border-cyan/40 hover:bg-white",
         variant === "light" && "bg-bone text-ink hover:-translate-y-1 hover:bg-mint",
         className
       )}

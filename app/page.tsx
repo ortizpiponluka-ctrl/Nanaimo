@@ -12,7 +12,7 @@ import { TopNav } from "@/components/top-nav";
 
 export default function Home() {
   return (
-    <main className="min-h-screen overflow-hidden bg-ink text-bone">
+    <main className="min-h-screen overflow-hidden bg-bone text-ink">
       <TopNav />
       <Hero />
       <Benefits />

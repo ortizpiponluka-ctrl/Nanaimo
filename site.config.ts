@@ -41,7 +41,7 @@ export const siteConfig = {
     whatsappMessage:
       "Hola Nanaimo, quiero una web que se vea profesional y me ayude a vender más. ¿Podemos conversar?",
     instagram: "https://www.instagram.com/lukaortizp/",
-    email: "hola@nanaimo.cl",
+    email: "ortizpiponluka@gmail.com",
     address: "Santiago, Chile"
   },
   seo: {

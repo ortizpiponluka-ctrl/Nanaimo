@@ -8,7 +8,7 @@ export function TopNav() {
   const whatsappLink = useWhatsAppLink();
 
   return (
-    <header className="fixed inset-x-0 top-0 z-40 border-b border-bone/10 bg-ink/80 backdrop-blur-2xl">
+    <header className="fixed inset-x-0 top-0 z-40 border-b border-ink/10 bg-bone/82 backdrop-blur-2xl">
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 lg:px-8">
         <Link href="#" className="focus-ring flex items-center gap-3 rounded-full">
           <Image
@@ -28,7 +28,7 @@ export function TopNav() {
             <Link
               key={item.href}
               href={item.href}
-              className="focus-ring rounded-full text-sm font-bold text-bone/70 transition hover:text-mint"
+              className="focus-ring rounded-full text-sm font-bold text-ink/68 transition hover:text-cyan"
             >
               {item.label}
             </Link>
