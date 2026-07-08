@@ -29,12 +29,12 @@ export const siteConfig = {
   city: "Santiago",
   country: "Chile",
   colors: {
-    background: "#0B0D12",
-    foreground: "#FFF8ED",
-    primary: "#FF4D2E",
-    secondary: "#A7F35A",
-    accent: "#47D7FF",
-    muted: "#F7F1E8"
+    background: "#FCF7EF",
+    foreground: "#101828",
+    primary: "#2563EB",
+    secondary: "#2DE2A6",
+    accent: "#FF5A5F",
+    muted: "#EEF3FF"
   },
   contact: {
     whatsapp: "+56934254398",
