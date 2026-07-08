@@ -20,8 +20,8 @@ const config: Config = {
         violet: "#7C5CFF"
       },
       fontFamily: {
-        sans: ["var(--font-inter)", "Inter", "system-ui", "sans-serif"],
-        display: ["var(--font-space)", "Space Grotesk", "system-ui", "sans-serif"]
+        sans: ["var(--font-sans)", "system-ui", "sans-serif"],
+        display: ["var(--font-display)", "Georgia", "serif"]
       },
       boxShadow: {
         glow: "0 0 70px rgba(255, 77, 46, 0.28)",

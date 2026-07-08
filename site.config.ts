@@ -37,7 +37,7 @@ export const siteConfig = {
     muted: "#F7F1E8"
   },
   contact: {
-    whatsapp: "+56952145015",
+    whatsapp: "+56934254398",
     whatsappMessage:
       "Hola Nanaimo, quiero una web que se vea profesional y me ayude a vender más. ¿Podemos conversar?",
     instagram: "https://www.instagram.com/lukaortizp/",
