@@ -47,7 +47,7 @@ export const siteConfig = {
   seo: {
     title: "Nanaimo | Sitios web, ecommerce y marketing para vender mejor",
     description:
-      "Creamos sitios web premium, catálogos editables, ecommerce y sistemas de venta por WhatsApp para marcas que quieren verse profesionales y convertir más.",
+      "Creamos sitios web premium, paneles editables, ecommerce y sistemas de venta por WhatsApp para marcas que quieren verse profesionales y convertir más.",
     url: "https://nanaimo.cl",
     keywords: [
       "sitios web chile",
@@ -68,7 +68,7 @@ export const siteConfig = {
     eyebrow: "Webs con estrategia, actitud y cierre por WhatsApp",
     title: "Tu negocio no necesita otra plantilla. Necesita una presencia que venda.",
     subtitle:
-      "Diseñamos páginas, catálogos y ecommerce con estética premium, mensajes claros y una ruta simple para que tus clientes pasen de mirar a escribirte.",
+      "Diseñamos páginas, paneles editables y ecommerce con estética premium, mensajes claros y una ruta simple para que tus clientes pasen de mirar a escribirte.",
     primaryCta: "Quiero cotizar mi web",
     secondaryCta: "Ver servicios",
     proof: ["Next.js + Vercel", "SEO base", "WhatsApp listo", "Escalable a ecommerce"],
@@ -92,7 +92,7 @@ export const siteConfig = {
     {
       title: "Lista para crecer",
       description:
-        "La base queda preparada para catálogo editable, Shopify, Mercado Pago, Meta Pixel y Analytics cuando el negocio lo necesite."
+        "La base queda preparada para panel editable, Shopify, Mercado Pago, Meta Pixel y Analytics cuando el negocio lo necesite."
     },
     {
       title: "Entrega clara y profesional",
@@ -100,65 +100,65 @@ export const siteConfig = {
         "Se trabaja con estructura, revisión, capacitación y traspaso ordenado para que la web quede realmente a disposición del cliente."
     }
   ],
-  categories: ["Demo premium", "Catálogo editable", "Ecommerce", "Marketing"],
+  categories: ["Muestra previa", "Web final", "Panel editable", "Marketing"],
   products: [
     {
-      name: "Demo web premium",
-      category: "Demo premium",
-      price: "Desde $299.000 CLP",
-      badge: "Ideal para partir",
+      name: "Muestra previa",
+      category: "Muestra previa",
+      price: "Sin costo inicial",
+      badge: "Para decidir",
       description:
-        "Sitio completo para mostrar confianza, explicar tu oferta y captar consultas por WhatsApp.",
+        "Una demo visual para que veas cómo podría quedar tu negocio antes de decidir si avanzamos con la web final.",
       deliverables: [
-        "Home profesional responsive",
-        "Copy orientado a conversión",
-        "SEO inicial y publicación en Vercel",
-        "Formulario o WhatsApp directo"
+        "Vista inicial del concepto",
+        "Propuesta de estilo y mensaje",
+        "Enfoque comercial por WhatsApp",
+        "Base para cotizar la web final"
       ],
-      cta: "Cotizar demo"
+      cta: "Ver si califico"
     },
     {
-      name: "Catálogo editable",
-      category: "Catálogo editable",
-      price: "Desde $449.000 CLP",
-      badge: "Más vendido",
+      name: "Web final",
+      category: "Web final",
+      price: "$250.000 CLP",
+      badge: "Lanzamiento",
       description:
-        "Página con panel simple para editar productos, precios, stock y ofertas sin tocar código.",
+        "Sitio profesional terminado, responsive y publicado para que tu negocio se vea serio y reciba consultas.",
       deliverables: [
-        "Panel privado",
-        "Productos visibles u ocultos",
-        "Stock, packs y ofertas",
-        "Cierre de pedidos por WhatsApp"
+        "Página completa",
+        "Textos orientados a venta",
+        "SEO inicial",
+        "Cierre por WhatsApp"
       ],
-      cta: "Quiero catálogo"
+      cta: "Quiero mi web"
     },
     {
-      name: "Ecommerce escalable",
-      category: "Ecommerce",
-      price: "A cotizar",
-      badge: "Etapa 2",
+      name: "Web con panel editable",
+      category: "Panel editable",
+      price: "$350.000 CLP",
+      badge: "Más práctico",
       description:
-        "Arquitectura lista para conectar pagos, envíos, automatizaciones y medición comercial.",
+        "Sitio con panel privado para cambiar productos, precios, stock, ofertas o contenido sin depender de código.",
       deliverables: [
-        "Preparación Shopify o Mercado Pago",
-        "Analítica y eventos",
-        "Embudo de compra",
-        "Acompañamiento de salida"
+        "Panel de administración",
+        "Productos o servicios editables",
+        "Stock, ofertas o destacados",
+        "Preparado para crecer"
       ],
-      cta: "Planear ecommerce"
+      cta: "Quiero panel editable"
     },
     {
-      name: "Impulso marketing",
+      name: "Crecimiento digital",
       category: "Marketing",
-      price: "Mensual",
+      price: "A cotizar",
       badge: "Crecimiento",
       description:
-        "Mejoras, campañas, piezas visuales y ajustes para que la web no quede quieta después de lanzarse.",
+        "Mejoras, campañas, ecommerce, pagos online o medición para que la web evolucione cuando el negocio esté listo.",
       deliverables: [
-        "Optimización mensual",
-        "Piezas para redes",
-        "Landing de campaña",
-        "Reporte simple de oportunidades"
+        "Shopify o Mercado Pago futuro",
+        "Meta Pixel y Analytics",
+        "Landings de campaña",
+        "Optimización comercial"
       ],
       cta: "Conversar plan"
     }
@@ -200,7 +200,7 @@ export const siteConfig = {
       quote:
         "La demo se entendió altiro. Sentí que por fin mi negocio se veía como yo quería mostrarlo.",
       name: "Clienta de tienda botánica",
-      role: "Catálogo editable"
+      role: "Panel editable"
     },
     {
       quote:
@@ -229,7 +229,7 @@ export const siteConfig = {
     {
       question: "¿Puedo editar productos y precios?",
       answer:
-        "Sí, si contratas la versión con catálogo editable. Permite cambiar productos, precios, stock, ofertas e imágenes sin tocar código."
+        "Sí, si contratas la web con panel editable de $350.000 CLP. Permite cambiar productos, precios, stock, ofertas e imágenes sin tocar código."
     },
     {
       question: "¿Cuánto demora una demo?",
