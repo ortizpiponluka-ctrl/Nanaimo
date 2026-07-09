@@ -5,7 +5,7 @@ import { siteConfig } from "@/site.config";
 
 export function Footer() {
   return (
-    <footer className="border-t border-bone/10 bg-ink">
+    <footer className="border-t border-bone/10 bg-ink text-bone">
       <div className="mx-auto max-w-7xl px-5 py-12 lg:px-8">
         <div className="flex flex-col justify-between gap-8 md:flex-row md:items-center">
           <Link href="#" className="focus-ring flex items-center gap-3 rounded-full">
@@ -17,7 +17,7 @@ export function Footer() {
               className="rounded-2xl"
             />
             <div>
-              <p className="font-display text-xl font-black tracking-[-0.05em]">
+              <p className="font-display text-xl font-black tracking-[-0.05em] text-bone">
                 {siteConfig.name}
               </p>
               <p className="text-sm text-bone/50">

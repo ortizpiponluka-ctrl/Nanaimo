@@ -4,7 +4,7 @@ import { SectionKicker } from "@/components/section-kicker";
 
 export function FaqSection() {
   return (
-    <section id="faq" className="bg-ink py-24">
+    <section id="faq" className="bg-ink py-24 text-bone">
       <div className="mx-auto grid max-w-7xl gap-10 px-5 lg:grid-cols-[0.8fr_1.2fr] lg:px-8">
         <SectionKicker
           eyebrow="Preguntas frecuentes"
@@ -17,7 +17,7 @@ export function FaqSection() {
               key={item.question}
               className="group rounded-[1.75rem] border border-bone/10 bg-bone/[0.06] p-6 open:border-lava/60"
             >
-              <summary className="flex cursor-pointer list-none items-center justify-between gap-6 font-display text-2xl font-black tracking-[-0.04em]">
+              <summary className="flex cursor-pointer list-none items-center justify-between gap-6 font-display text-2xl font-black tracking-[-0.04em] text-bone">
                 {item.question}
                 <HelpCircle className="h-6 w-6 shrink-0 text-mint transition group-open:rotate-45" />
               </summary>

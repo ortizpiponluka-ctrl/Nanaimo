@@ -6,7 +6,7 @@ export function Process() {
   const readiness = getCommerceReadiness();
 
   return (
-    <section id="proceso" className="bg-ink py-24">
+    <section id="proceso" className="bg-ink py-24 text-bone">
       <div className="mx-auto max-w-7xl px-5 lg:px-8">
         <div className="grid gap-12 lg:grid-cols-[0.9fr_1.1fr]">
           <div className="lg:sticky lg:top-28 lg:h-fit">
@@ -23,7 +23,7 @@ export function Process() {
                 {readiness.map((item) => (
                   <div
                     key={item.label}
-                    className="flex items-center justify-between rounded-2xl bg-ink px-4 py-3"
+                    className="flex items-center justify-between rounded-2xl bg-bone/8 px-4 py-3"
                   >
                     <span className="text-sm font-bold text-bone/74">{item.label}</span>
                     <span className="rounded-full bg-mint px-3 py-1 text-xs font-black text-ink">
@@ -43,7 +43,7 @@ export function Process() {
                 <div className="mb-8 font-display text-6xl font-black tracking-[-0.08em] text-lava">
                   {step.step}
                 </div>
-                <h3 className="font-display text-3xl font-black tracking-[-0.05em]">
+                <h3 className="font-display text-3xl font-black tracking-[-0.05em] text-bone">
                   {step.title}
                 </h3>
                 <p className="mt-4 max-w-2xl text-lg leading-8 text-bone/65">{step.description}</p>
